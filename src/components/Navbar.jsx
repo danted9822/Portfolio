@@ -1,12 +1,32 @@
 import React, { useState } from 'react';
 import {
-  FaBars,
-  FaTimes,
   FaGithub,
   FaLinkedin
 } from 'react-icons/fa';
 import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
+
+
+const languages = [
+  { code: 'en', name: 'English'},
+  { code: 'hu', name: 'Hungary'}
+]
+
+
+const translations = {
+  'en': {
+    'header': 'Spring',
+    'paragraf': 'Hello',
+    'lang-choice': 'Choose your language:'
+  },
+  'hu': {
+    'header': 'Frühling',
+    'paragraf': 'Hallo',
+    'lang-choice': 'Wählen Sie Ihre Sprache:'
+  }
+}
+
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -46,11 +66,6 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-
-      {/* Hamburger */}
-      <div onClick={handleClick} className='md:hidden z-10'>
-        {!nav ? <FaBars /> : <FaTimes />}
-      </div>
 
       {/* Mobile menu */}
       <ul
