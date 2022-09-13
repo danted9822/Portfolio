@@ -1,17 +1,19 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import Blackjack from '../assets/Blackjack.png';
 import codecoolshop from '../assets/codecoolshop.png';
 import Restore from '../assets/Re-store.png';
 
 const Work = () => {
+	const { t } = useTranslation(["work"]);
   return (
     <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f] pt-20'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
-            Work
+            {t("work")}
           </p>
-          <p className='py-6'>// Check out some of my recent work</p>
+          <p className='py-6'> {t("current")}</p>
         </div>
 
         {/* Container */}
