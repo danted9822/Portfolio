@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React,  { Suspense, useEffect } from "react";
 
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -14,14 +14,18 @@ export default function App() {
   }, []);
 
   return (
-    <div>
-      <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Work />
-      <Contact />
-    </div>
+    <Suspense fallback={<h1>Loading profile...</h1>}>
+      <div>
+        <Navbar />
+        <Home />
+        <About />
+        <Skills />
+        <Work />
+        <Contact />
+      </div>
+
+    </Suspense>
+
   );
 }
 
