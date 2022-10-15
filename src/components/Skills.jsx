@@ -17,7 +17,7 @@ const Skills = () => {
     const { t } = useTranslation(["skills"]);
 
     return (
-        <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300 py-10'>
+        <div name='skills' className='w-full h-auto bg-[#0a192f] text-gray-300  pt-4'>
             {/* Container */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
