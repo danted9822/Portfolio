@@ -28,3 +28,19 @@
         hsla(242, 74%, 61%, 0.8)   
     )!important;
 }
+
+.px-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .py-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+
+
+
+
+  
