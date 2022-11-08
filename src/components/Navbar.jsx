@@ -95,30 +95,30 @@ const Navbar = () => {
             : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center '
         }
       >
-        <li className='py-3 text-4xl'>
+        <li className='py-2 text-4xl'>
           <Link onClick={handleClick} to='home' smooth={true} duration={500}>
             {t("home")}
           </Link>
         </li>
-        <li className='py-3 text-4xl'>
+        <li className='py-2 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='about' smooth={true} duration={500}>
             {t("about")}
           </Link>
         </li>
-        <li className='py-3 text-4xl'>
+        <li className='py-2 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
             {t("skills")}
           </Link>
         </li>
-        <li className='py-3 text-4xl'>
+        <li className='py-2 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='work' smooth={true} duration={500}>
             {t("work")}
           </Link>
         </li>
-        <li className='py-3 text-4xl'>
+        <li className='py-2 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
             {t("contact")}
@@ -126,7 +126,7 @@ const Navbar = () => {
         </li>
 
 
-        <li className="py-3 text-4xl">
+        <li className="py-2 text-4xl">
           <select
             className="bg-[#0a192f] text-gray-300 mb-20 "
             value={localStorage.getItem("i18nextLng")}
@@ -138,8 +138,8 @@ const Navbar = () => {
         </li>
 
 
-        <MDBFooter className='fixed bottom-0  w-full mt-10 ' style={{ backgroundColor: '#333333' }}>
-          <li className="py-3 text-2xl ">
+        <MDBFooter className='fixed bottom-0  w-full mt-5 ' style={{ backgroundColor: '#333333' }}>
+          <li className="py-2 text-2xl ">
             <a
               className='flex justify-center  text-gray-300'
               href='https://www.linkedin.com/in/hal%C3%A1sz-p%C3%A9ter-3ba656189/'
@@ -148,7 +148,7 @@ const Navbar = () => {
             </a>
           </li>
 
-          <li className="py-3 text-2xl">
+          <li className="py-2 text-2xl">
             <a
               className='flex justify-center  text-gray-300'
               href='https://github.com/danted9822'
