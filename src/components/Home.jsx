@@ -17,11 +17,11 @@ const Home = () => {
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
         {t("junior")}
         </h2>
-        <p className='text-[#8892b0] py-4 mb-10 max-w-[700px]'>
+        <p className='text-[#8892b0] py-4  max-w-[700px]'>
         {t("about")}
         </p>
         <div>
-          <button className='text-white group border-2 px-6 py-3  mb-20 flex items-center hover:bg-pink-600 hover:border-pink-600'>
+          <button className='text-white group border-2 px-6 py-3 flex items-center hover:bg-pink-600 hover:border-pink-600 invisible md:visible'>
             <Link to='work' smooth={true} duration={500}>
             {t("work")}
             </Link>
