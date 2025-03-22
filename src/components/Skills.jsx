@@ -2,15 +2,16 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
-import JavaScript from '../assets/javascript.png';
-import ReactImg from '../assets/react.png';
+import javaScript from '../assets/javascript.png';
+import reactImg from '../assets/react.png';
 import GitHub from '../assets/github.png';
 import csharp from '../assets/csharp.png';
 import dotnet from '../assets/dotnet.png';
 import java from '../assets/java.png';
 import postgresql from '../assets/postgresql.png';
 import python from '../assets/python.png';
-
+import django from '../assets/django.png';
+import typeScript from '../assets/typescript.png';
 
 const Skills = () => {
 
@@ -34,16 +35,16 @@ const Skills = () => {
                         <p className='my-4'>CSS</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={JavaScript} alt="HTML icon" />
-                        <p className='my-4'>JAVASCRIPT</p>
+                        <img className='w-20 mx-auto' src={javaScript} alt="HTML icon" />
+                        <p className='my-4'>JavaScript</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
-                        <p className='my-4'>REACT</p>
+                        <img className='w-20 mx-auto' src={typeScript} alt="HTML icon" />
+                        <p className='my-4'>TypeScript</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
-                        <p className='my-4'>GITHUB</p>
+                        <img className='w-20 mx-auto' src={reactImg} alt="HTML icon" />
+                        <p className='my-4'>React</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={csharp} alt="HTML icon" />
@@ -62,8 +63,16 @@ const Skills = () => {
                         <p className='my-4'>Python</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <img className='w-20 mx-auto' src={django} alt="HTML icon" />
+                        <p className='my-4'>Django</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={postgresql} alt="HTML icon" />
                         <p className='my-4'>Postgresql</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
+                        <p className='my-4'>GitHub</p>
                     </div>
                 </div>
             </div>
