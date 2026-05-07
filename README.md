@@ -1,24 +1,42 @@
+# Personal Portfolio
 
-## Available Scripts
+This is my personal portfolio website, created to showcase my developer skills and projects. Its goal is to provide a clean, modern, and easily navigable interface to offer insight into my professional background and technical expertise.
 
-In the project directory, you can run:
+## Technology Stack
 
-### `yarn start`
+The project is built using modern web development standards:
 
-### Make sure you run "yarn" to install required dependencies! 
+*   **Frontend:** React.js
+*   **Styling:** CSS (TailwindCSS)
+*   **Internationalization:** Multi-language support (English/Hungarian)
+*   **Build Tool:** Yarn
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*   **Project Showcase:** Visual presentation and descriptions of my featured projects.
+*   **Skills Overview:** Structured display of my technical stack and tools.
+*   **Multi-language Support:** Full i18n support for both international and local visitors.
+*   **Responsive Design:** Optimized layout for all devices.
 
-### `yarn build`
+## Installation and Running
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run this project, you need [Node.js](https://nodejs.org/) and [Yarn](https://yarnpkg.com/) installed on your machine.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/danted9822/portfolio.git
+    ```
+2.  Install the dependencies:
+    ```bash
+    yarn install
+    ```
+3.  Start the development environment:
+    ```bash
+    yarn start
+    ```
 
+The website will be available at [http://localhost:3000](http://localhost:3000).
 
+## License
+
+This project is open-source under the MIT license.
